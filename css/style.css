@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+html, body{
+
+  margin: 0; 
+  padding: 0; 
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.inner{
+
+  width: 95%;
+  margin: auto;
+
+
+}
+
+.menu {
+  background: white;
+  width: 100%;
+  height: 66px;
+  line-height: 66px;
+  background: wheat;
+ 
+
+}
+
+.m-left{
+
+  float: left; 
+}
+
+.logo{
+
+  margin: 0;
+  padding: O; 
+  color: #038336;
+  font-family: 'Fredoka One';
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
+.m-center{
+
+  float: center; 
+  
+}
+
+.m-link{
+
+float: center;
+text-decoration: none;
+color: black; 
+font-weight: 400 ;
+padding: 20px;
+margin: 0;
+transition: all 0.3s ease-in-out;
+
+}
+
+.m-recherche{
+
+  float: right;
+
+
+}
+
+.m-link i{
+
+margin-right: 10px;
+color: #7BC27B; 
+font-size: 30px;
+}
+
+.m-link:hover{
+
+color:#7BC27B; 
+
+}
+
+
+#image1 {
+
+width: 100%;
+
+
+}
+
+
+.m-nav-toggle{
+
+  width: 40px;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  float: right;
+
+}
+
+span.m-toggle-icon, span.m-toggle-icon:before, span.m-toggle-icon:after{
+
+  content: ''; 
+
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #7BC27B; ;
+  position: relative;
+  
+
+}
+
+span.m-toggle-icon:before{top: 10px;}
+span.m-toggle-icon:after{top: -14px;}
+@media only screen and (max-width: 880px){
+
+ .m-center{
+   display: none;
+
+
+ }
+}
