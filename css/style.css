@@ -7,7 +7,6 @@ html, body{
   margin: 0; 
   padding: 0; 
   font-family: 'Quicksand', sans-serif;
-
 }
 
 .inner{
@@ -55,17 +54,36 @@ float: center;
 text-decoration: none;
 color: black; 
 font-weight: 400 ;
-padding: 20px;
-margin: 0;
+padding: 10px;
+margin: 20px;
 transition: all 0.3s ease-in-out;
 
 }
 
-.m-recherche{
 
+.search-txt {
+
+ height: 40px;
+ width: 20%;
+ border-radius: 30px;
+
+}
+
+.search-btn  {
+
+  color: #7BC27B; 
   float: right;
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.searchtxt {
 
+ border-color:  #7BC27B;
 }
 
 .m-link i{
@@ -73,6 +91,8 @@ transition: all 0.3s ease-in-out;
 margin-right: 10px;
 color: #7BC27B; 
 font-size: 30px;
+padding: 0;
+
 }
 
 .m-link:hover{
@@ -89,3 +109,269 @@ width: 100%;
 
 }
 
+h2{
+  color:#7BC27B; 
+  text-align: center;
+}
+
+span{
+
+  text-decoration: underline; 
+}
+
+body ul {
+
+  list-style: none;
+  margin: 0px; 
+  padding: 0px;
+  position: relative;
+  top: -34px;
+  left: 845px;
+}
+
+body ul li{
+
+  margin: 0; 
+  padding: 0; 
+  float: center;
+  width: 200px;
+  height: 40px;
+  color:#7BC27B;
+  line-height: 40px;
+  text-align: center;
+
+}
+
+body ul li a span:hover{
+
+color: #038336 ;
+
+}
+
+.menuderoulant{
+
+display: none;
+}
+
+body ul:hover ul li{
+
+
+  display: block;
+}
+
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}
+
+
+
+.alimentation{
+opacity: 1;
+cursor: pointer;
+border-radius: 30px;
+height: 190px;
+border: 3px solid #038336;
+margin: 20px; 
+padding: 30px;
+color: black;
+font-size: 20px;
+text-align: center;
+width: auto;
+}
+
+
+.imgcat{
+
+  position: relative;
+  top: -130px;
+  left: 20px;
+  
+}
+
+.product{
+
+  font-size: 18px;
+}
+
+.price{
+
+  font-size: 18px;
+  text-transform: uppercase;
+  color:#038336; 
+}
+
+.couchage{
+  opacity: 1;
+  cursor: pointer;
+  height: 150px;
+  border-radius: 30px;
+  border: 3px dotted #7BC27B;
+  margin: 20px; 
+  padding: 30px;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  width: auto;
+}
+
+.imgcouchage{
+
+  position: relative;
+  top: -150px;
+  left: 20px;
+
+
+}
+
+
+.care{
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px solid #038336;
+  margin: 20px; 
+  padding: 30px;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  width: auto; 
+
+}
+
+
+
+.toys{
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px dotted #7BC27B;
+  margin: 20px; 
+  padding: 30px;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  width: auto;
+}
+
+
+p {
+  font-size: 3Opx; 
+
+}
+
+.engag{
+
+text-align: center;
+}
+
+.medal{
+
+  text-align: left;
+
+}
+
+.svgmedal{
+
+  color:#038336;
+}
+
+
+
+.engagement{
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  
+  
+}
+
+.textsvg{ 
+
+  justify-content: center;
+}
+
+.cat{
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px solid #7BC27B;
+  margin: 20px; 
+  padding: 30px;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  width: auto;
+}
+
+.dog{
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px dotted #038336 ;
+  margin: 20px; 
+  padding: 30px;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  width: auto;
+}
+
+.poules{
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px solid #7BC27B;
+  margin: 20px; 
+  padding: 30px;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  width: auto;
+}
+
+
+.rongeur{
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px dotted #038336;
+  margin: 20px; 
+  padding: 30px;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  width: auto;
+}
+
+
+.textfooter{
+
+  font-size: small;
+
+}
+
+.textfooter2{
+
+  font-size: smaller; 
+}
+
+    
+    
+  
+.bas{
+
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  padding: 50px 0 100px;
+
+
+  }
