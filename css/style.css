@@ -66,25 +66,44 @@ transition: all 0.3s ease-in-out;
  height: 40px;
  width: 20%;
  border-radius: 30px;
+ border-color:#7BC27B;
 
 }
 
-.search-btn  {
 
-  color: #7BC27B; 
-  float: right;
-  width: 40px; 
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.searchTerm {
+ border-color: #7BC27B;
+ width: 170px;
+  border: 3px solid #7BC27B;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #063f25;
+
 }
 
-.searchtxt {
-
- border-color:  #7BC27B;
+.searchTerm:focus{
+  color:#038336;
 }
+
+.searchButton {
+  float: auto;
+  width: 40px;
+  height: 37px;
+  border: solid #7BC27B;
+  background: #7BC27B;
+  text-align: auto;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+
 
 .m-link i{
 
@@ -93,6 +112,11 @@ color: #7BC27B;
 font-size: 30px;
 padding: 0;
 
+}
+
+.textkink{
+
+  font-size: 5px;
 }
 
 .m-link:hover{
@@ -282,13 +306,25 @@ text-align: center;
 
 
 .engagement{
-  display: inline-flex;
+
+  display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   height: 100%;
   width: 80%;
-  
+  margin: auto;
   
 }
+
+
+.svgdialogue{
+
+color: #7BC27B;
+
+}
+
+
+
 
 .textsvg{ 
 
@@ -348,12 +384,81 @@ text-align: center;
   width: auto;
 }
 
+footer{
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  
+  height: 200px;
+
+}
+
+.annonce{
+
+  float: left; 
+  margin-left: 20px;
+
+}
+
+
+.searchTerm2 {
+
+  float: left;
+  margin-left: 20px;
+  border-color: black;
+  width: 170px;
+   border: 1px solid black;
+   border-right: none;
+   padding: 5px;
+   height: 20px;
+   border-radius: 5px 0 0 5px;
+   outline: none;
+   color: #063f25;
+ 
+ }
+
+ .reseau{
+
+  display: flex;
+  flex-wrap: nowrap;
+ }
+ 
+ .searchTerm2 :focus{
+   color:#038336;
+ }
+ 
+ .searchButton2 {
+   float: auto;
+   width: 40px;
+   height: 37px;
+   background: none;
+   text-align: auto;
+   color: black;
+   cursor: pointer;
+   font-size: 15px;
+ 
+ }
+
+
+
+ .container2{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin-right: 5px;
+}
 
 .textfooter{
 
   font-size: small;
 
 }
+
+
+
 
 .textfooter2{
 
@@ -363,15 +468,4 @@ text-align: center;
     
     
   
-.bas{
 
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 20px;
-  padding: 50px 0 100px;
-
-
-  }
